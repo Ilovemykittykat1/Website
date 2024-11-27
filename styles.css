@@ -1,0 +1,67 @@
+/* elem#id selector */
+h1#main-title {
+    text-align: center;
+    color: blue;
+}
+
+/* #id selector */
+#nscc-link {
+    color: green;
+    font-weight: bold;
+}
+
+/* elem.class selector */
+.intro {
+    font-size: 18px;
+    font-style: italic;
+}
+
+/* .class selector */
+.image-container {
+    text-align: center;
+}
+
+/* elem[att] selector */
+a[href] {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* elem[att="value"] selector */
+a[href="https://www.nscc.ca/"] {
+    font-weight: bold;
+    color: red;
+}
+
+/* Center all text and images in .center-text sections */
+.center-text {
+    text-align: center;
+}
+
+/* Style for all images */
+.center-text img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px 0;
+}
+
+/* Centered ordered lists inside .center-text */
+.center-text ol,
+.center-text ul {
+    display: inline-block; /* Centers list items under images */
+    text-align: left; /* Keeps list items aligned to the left */
+    padding: 0;
+    margin: 0;
+}
+
+/* Remove bullets for ul with the no-bullets class */
+.no-bullets {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Style link at the bottom */
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
